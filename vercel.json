@@ -14,11 +14,6 @@
       "dest": "index.html"
     }
   ],
-  "env": {},
-  "regions": ["sfo1"],
-  "functions": {},
-  "redirects": [],
-  "rewrites": [],
   "headers": [
     {
       "source": "/(.*)",
