@@ -38,8 +38,7 @@ Geração de leads e conversão direta via WhatsApp para serviços de manutenç�
 - **Amazon S3**: hospedagem estática dos arquivos (HTML/CSS/JS/Assets).  
 - **Amazon CloudFront**: CDN para baixa latência, compressão e cache global.  
 - **AWS Certificate Manager (ACM)**: SSL/TLS gerenciado para HTTPS no CloudFront.  
-- **DNS**: apontar domínio via CNAME/ALIAS para CloudFront; usar provedor DNS com suporte a TTL baixo para deploys rápidos.  
-- **Pipeline simples (opcional)**: GitHub Actions para build (minify) e deploy automático para S3 ao merge na `main`.  
+- **DNS**: apontar domínio via CNAME/ALIAS para CloudFront; usar provedor DNS com suporte a TTL baixo para deploys rápidos.   
 - **Observabilidade**: ativar logs de acesso no CloudFront e monitoramento básico (CloudWatch) para acompanhar tráfego e erros.
 
 ## Extras recomendados
