@@ -41,13 +41,9 @@ Geração de leads e conversão direta via WhatsApp para serviços de manutenç�
 - **DNS**: apontar domínio via CNAME/ALIAS para CloudFront; usar provedor DNS com suporte a TTL baixo para deploys rápidos.   
 - **Observabilidade**: ativar logs de acesso no CloudFront e monitoramento básico (CloudWatch) para acompanhar tráfego e erros.
 
-## Extras recomendados
+## Extras
 - Pixel de rastreamento (Google Analytics 4 / Meta Pixel) para medir conversões e otimizar campanhas.  
 - Testes A/B simples em CTA (texto/posição) para aumentar taxa de conversão.  
-- Mensagem automática/roteiro curto no WhatsApp para qualificar leads rapidamente (ex.: “Obrigado! Pode nos informar o tipo de redutor e urgência?”).
+- Mensagem automática/roteiro curto no WhatsApp para qualificar leads rapidamente.
 
 ---
-
-> Arquivo pronto para colocar no repositório como `README.md` ou `briefing-landing-redumec.md`.
-
-
