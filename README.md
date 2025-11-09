@@ -34,7 +34,7 @@ Geração de leads e conversão direta via WhatsApp para serviços de manutenç�
 - Uso de links diretos para WhatsApp com `encodeURIComponent` para preservar texto do formulário.  
 - Minimização de arquivos e uso de caching headers ao publicar.
 
-## Estratégia de Deploy (sugestão)
+## Estratégia de Deploy
 - **Amazon S3**: hospedagem estática dos arquivos (HTML/CSS/JS/Assets).  
 - **Amazon CloudFront**: CDN para baixa latência, compressão e cache global.  
 - **AWS Certificate Manager (ACM)**: SSL/TLS gerenciado para HTTPS no CloudFront.  
